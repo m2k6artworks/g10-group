@@ -17,6 +17,12 @@
     margin: 18px 0;
   }
 
+  .heading
+  {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
   .foto-besar
   {
     padding-top: 23%;
@@ -69,6 +75,12 @@
   {
     width: 110px;
     margin: 15px 0;
+  }
+
+  .heading
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .header-right .menu-h
@@ -144,7 +156,7 @@
   .flex-list li
   {
     margin: 10px auto; 
-    width: 400px;
+    width: 350px;
     text-align: center;
   }
 
@@ -167,6 +179,7 @@
   .flex-list2 li
   {
     width: 90%;
+    margin: 1px auto;
   }
 
   .li5
@@ -187,7 +200,7 @@
   .li6 a
   {
     text-align: center;
-    margin-right: 5%;
+    margin: 0px 20px;
     float: none;
   }
 
