@@ -34,7 +34,7 @@ ul
 {
   max-width: 1366px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 0;
   padding: 0 50px;
 }
 
@@ -215,7 +215,7 @@ ul
   visibility: hidden;
   top: 0;
   right: -100%;
-  width: 300px;
+  width: 250px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -299,7 +299,7 @@ ul
   cursor: pointer;
 }
 
-.bagian-utama 
+.bagian-utama, .bagian-atas 
 {
   max-width: 1366px;
   width: 100%;
@@ -424,7 +424,7 @@ input[type="submit"]:hover
 {
   max-width: 1366px;
   width: 100%;
-  margin: 1%;
+  margin: 1% 0;
   clear: both;
 }
 
@@ -465,7 +465,7 @@ footer
 {
   max-width: 1366px;
   width: 100%;
-  margin: 10px 30px;
+  margin: 10px 0;
 }
 
 .flex-list2 
