@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1170px, initial-scale=1.0">
+    <title>Group G10</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div id="header-trans" class="header bghead2">
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" id="logo" src="./foto/logo-white.png">
+        </div>
+        <div class="header-right">
+            <div class="hamburger-menu">
+                <input id="menu_toggle" type="checkbox" />
+                <label class="menu_btn" for="menu_toggle">
+                    <span></span>
+                </label>
+                <ul class="menu_box">
+                    <li><a class="menu_item" href="#utama">Beranda</a></li>
+                    <li><a class="menu_item" href="#utama">Destinasi</a></li>
+                    <li><a class="menu_item" href="#bottom">Paket Wisata</a></li>
+                    <li><a class="menu_item" href="#">Galeri</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-right">
+          <a href="#utama" class="menu-h"><b>Galeri</b></a>
+        </div>
+        <div class="header-right">
+          <a href="#bottom" class="menu-h"><b>Paket Wisata</b></a>
+        </div>
+        <div class="header-right">
+          <a href="#utama" class="menu-h"><b>Destinasi</b></a>
+        </div>
+        <div class="header-right">
+          <a href="#" class="menu-h"><b>Beranda</b></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bagian-atas">
+        <div class="ba-contents">
+            <div class="foto-besar twhite" id="parallax">
+                <h2>Wonderful Indonesia</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <button id="ygy" onclick="changeimg1()" class="twhite btn selected"> Yogyakarta </button>
+                        </div>
+                        <div class="col-4">
+                            <button id="jkt" onclick="changeimg2()" class="twhite btn"> Jakarta </button>
+                        </div>
+                        <div class="col-4">
+                            <button id="sby" onclick="changeimg3()" class="twhite btn"> Surabaya </button>
+                        </div>
+                        <div class="col-4">
+                            <button id="bkt" onclick="changeimg4()" class="twhite btn"> Bukittinggi </button>
+                        </div>
+                    </div>
+                </div>
+                    <div id="utama"></div>
+            </div>
+        </div >
+    </div>
+
+    <div class="bagian-utama">
+        <h1 class="tblack heading">Beberapa Monumen Bersejarah di Indonesia </h1>
+        <ul class="flex-list">
+            <li class="li1">
+                <div class="foto-kecil">
+                    <a href="#bagian-jogja"> 
+                        <img class="tugu-jogja" src="./foto/jogja.jpg" alt="Tugu-Jogja" title="Tugu Jogja"> 
+                    </a>
+                </div>
+                <div class="deskripsi">
+                    <h2>Tugu Jogja</h2>
+                    <p>
+                        Tugu Jogja merupakan sebuah landmark kota Jogja yang terletak di tengah perempatan antara Jalan Mangkubumi, Jalan Jendral Sudirman, Jalan A.M Sangaji, dan Jalan Diponegoro. Awalnya, bangunan ini merupakan penanda batas utara kota tua Jogja. Pertama kali didirikan pada 1755 silam oleh Sri Sultan Hamengku Buwono I, sang pendiri Keraton Yogyakarta.
+                    </p>
+                </div>
+            </li>
+            <li class="li2">
+                <div class="foto-kecil">
+                    <a href="#bagian-jkt"> 
+                        <img class="tugu-jkt" src="./foto/monas.jpg" alt="Tugu-Monas" title="Monas"> 
+                    </a>
+                </div>
+                <div class="deskripsi">
+                    <h2>Tugu Monas</h2>
+                    <p>
+                        Tugu Monumen Nasional (Monas) merupakan monumen peringatan yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari penjajahan kolonial Hindia Belanda. Monumen ini didirikan atas perintah presiden Soekarno di ibukota Jakarta mulai tanggal 17 Agustus 1961 hingga selesai pada tanggal 12 Juli 1975.
+                    </p>
+                </div>
+            </li>
+            <li class="li3">
+                <div class="foto-kecil">
+                    <a href="#bagian-sby"> 
+                        <img class="tugu-sby" src="./foto/tugu-sby.jpg" alt="Tugu-Pahlawan" title="Tugu Pahlawan"> 
+                    </a>
+                </div>
+                <div class="deskripsi">
+                    <h2>Tugu Pahlawan</h2>
+                    <p>
+                        Tugu Pahlawan merupakan landmark kota Surabaya dengan tinggi 41,15 meter dan berbentuk lingga atau paku terbalik. Tugu Pahlawan dibangun untuk memperingati peristiwa Pertempuran 10 November 1945 di Surabaya, di mana arek-arek Suroboyo berjuang melawan pasukan Sekutu bersama Belanda yang hendak menjajah kembali Indonesia.
+                    </p>
+                </div>
+            </li>
+            <li class="li4">
+                <div class="foto-kecil">
+                    <a href="#bagian-bkt"> 
+                        <img class="tugu-bkt" src="./foto/jam-gadang2.jpg" alt="Jam-Gadang" title="Jam Gadang Bukittinggi">
+                    </a>
+                </div>
+                <div class="deskripsi">
+                    <h2>Jam Gadang</h2>
+                    <p>
+                        Landmark kebanggaan kota Bukittinggi ini bukan hanya berbentuk menara biasa, namun menara ini memiliki jam dengan ukuran besar di empat sisinya. Pada sejarah pembangunannya, Jam Gadang selesai dibangun pada tahun 1926 sebagai hadiah dari Ratu Belanda kepada Rookmaker. Rookmaker merupakan sekretaris kota Bukittinggi pada masa penjajahan Belanda.
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bagian-atas">
+        <div class="ba-contents">
+            <div class="foto-besar twhite" id="parallax2">
+                <h2>Pesona Indonesia</h2>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bagian-tambahan">
+        <h1 class="tblack heading"> Cari Destinasi Wisata di Indonesia </h1>
+        <div class="cari">  
+            <input type="text" name="cari" placeholder="Telusuri destinasi wisata">
+            <input type="submit" value="&#xf002;">
+        </div>  
+    </div>
+    
+    <footer>
+        <div class="pattern" id="bottom">
+        </div>
+        <div class="foot-content">
+            <div class="row2">
+                <ul class="flex-list2">
+                    <li class="li5">
+                    <p>
+                        Website ini dibuat oleh Kelompok G10 yang beranggotakan Muhammad Gafur Sidiq, Muhammad Zidan Khalil Gibran, Naufal Rafif, dan Ilyasa Punjung Wicaksono
+                        <br>
+                        <br>
+                    </p>
+                    </li>
+                    <li class="li6">
+                        <br>
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <h3 class="copy"> &copy; <script>document.write(new Date().getFullYear());</script> G10 Group</h3>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

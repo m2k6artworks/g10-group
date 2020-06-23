@@ -1,0 +1,198 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) 
+{
+  body
+  {
+    font-size: 14px;
+  }
+
+  .bghead a:hover
+  {
+    height: 87px;
+  }
+
+  .header-left img
+  {
+    width: 115px;
+    margin: 18px 0;
+  }
+
+  .foto-besar
+  {
+    padding-top: 23%;
+    padding-bottom: 2%;
+  }
+
+  .row
+  {
+    margin-top: 150px;
+  }
+
+  .col-4
+  {
+    width: 49%;
+    margin: 0;
+  }
+
+  .flex-list 
+  {
+    flex-wrap: wrap;
+  }
+
+  .flex-list li 
+  {
+    width: 45%;
+  }
+
+  .cari input
+  {
+    padding: 5px;
+    font-size: 1.7em;
+  }
+
+  input[type="submit"] 
+  {
+    font-size: 2em;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 800px) 
+{
+  body
+  {
+    font-size: 12px;
+  }
+
+  .header-left img
+  {
+    width: 110px;
+    margin: 15px 0;
+  }
+
+  .header-right .menu-h
+  {
+    display: none;
+  }
+  
+  .header-right .hamburger-menu
+  {
+    display: block;
+  }
+
+  .bghead2 .menu_box
+  {
+    background-color: #000;
+  }
+
+  .bghead2 .menu_box a:hover,
+  .bghead .menu_box a:hover
+  {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .bghead2 .menu_btn:hover > span,
+  .bghead2 .menu_btn:hover > span::after,
+  .bghead2 .menu_btn:hover > span::before
+  {
+    background-color: grey;
+    cursor: pointer;
+  }
+
+  .bghead .menu_btn:hover > span,
+  .bghead .menu_btn:hover > span::after,
+  .bghead .menu_btn:hover > span::before
+  {
+    background-color: grey;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  }
+
+  .bghead2 .menu_btn > span,
+  .bghead2 .menu_btn > span::before,
+  .bghead2 .menu_btn > span::after
+  {
+    background-color: white;
+  }
+  
+  .foto-besar
+  {
+    padding-top: 25%;
+    padding-bottom: 1%;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .row
+  {
+    margin-top: 80px;
+  }
+
+  .col-4
+  {
+    width: 39%;
+    margin-bottom: 15px;
+  }
+
+  .flex-list
+  {
+    flex-direction: column;
+  }
+  
+  .flex-list li
+  {
+    margin: 10px auto; 
+    width: 400px;
+    text-align: center;
+  }
+
+  .cari input
+  {
+    padding: 5px;
+    font-size: 1.4em;
+  }
+
+  input[type="submit"] 
+  {
+    font-size: 1.6em;
+  }
+
+  .flex-list2
+  {
+    flex-direction: column;
+  }
+  
+  .flex-list2 li
+  {
+    width: 90%;
+  }
+
+  .li5
+  {
+    width: 100%;
+  }
+
+  .li5 p
+  {
+    text-align: center;
+  }
+
+  .li6
+  {
+    text-align: center;
+  }
+
+  .li6 a
+  {
+    text-align: center;
+    margin-right: 5%;
+    float: none;
+  }
+
+  .copy
+  {
+    margin-top: 20px;
+  }
+}
